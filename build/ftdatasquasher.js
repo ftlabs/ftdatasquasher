@@ -3,7 +3,7 @@ return (function(e,t,n){function i(n,s){if(!t[n]){if(!e[n]){var o=typeof require
 (function(){/**
  * FT Data Squasher
  *
- * Image compression and
+ * Data compression and
  * decompression support,
  * packing base64 into UTF8
  * high and low bytes
@@ -19,8 +19,6 @@ return (function(e,t,n){function i(n,s){if(!t[n]){if(!e[n]){var o=typeof require
  */
 
 /*jshint laxbreak:true*/
-
-var squashr = module.exports;
 
 /**
  * Compresses the Image using
@@ -47,13 +45,6 @@ function compress(data) {
       + data.charCodeAt(i + 1));
   }
 
-  /**
-   * Prepend two extra characters
-   * to indicate that the data has
-   * been compressed and which
-   * version of the compression
-   * algorithm is being used
-   */
   return out;
 
 }
@@ -69,12 +60,12 @@ function compress(data) {
  * 2) Caching fromCharCode method
  *    slightly faster - ~1.03x
  *    faster
- * 3) Elimintating temporary storage
+ * 3) Eliminating temporary storage
  *    variables - ~1.1x faster
  * 4) Passing multiple arguments to
  *    fromCharCode is complex; with
  *    just two, slower (!) - ~1.10x
- *    slowerz- but combined with
+ *    slower - but combined with
  *    unrolling, faster,
  * 5) Unrolling the loop is faster,
  *    although with diminishing
@@ -170,7 +161,7 @@ function decompress(data) {
 }
 
 
-squashr = {
+module.exports = {
   compress: compress,
   decompress: decompress
 };
