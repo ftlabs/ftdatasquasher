@@ -1,12 +1,12 @@
 {
-	"name": "ftdatasquasher",
-	"version": "0.0.1",
-	"description": " * Image compression and decompression support, packing base64 into UTF8 high and low bytes",
-	"main": "lib/ftdatasquasher.js",
+  "name": "ftdatasquasher",
+  "version": "0.0.2",
+  "description": " * Image compression and decompression support, packing base64 into UTF8 high and low bytes",
+  "main": "lib/ftdatasquasher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-	"repository": {
+  "repository": {
     "type": "git",
     "url": "git@10.119.160.180:ftlabs/ftdatasquasher.git"
   },
