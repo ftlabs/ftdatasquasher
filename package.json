@@ -1,7 +1,7 @@
 {
   "name": "ftdatasquasher",
   "version": "0.0.3",
-  "description": "Image compression and decompression support, packing base64 into UTF8 high and low bytes",
+  "description": "Data compression and decompression support, packing base64 into UTF8 high and low bytes",
   "main": "lib/ftdatasquasher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
