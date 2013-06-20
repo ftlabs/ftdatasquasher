@@ -8,7 +8,7 @@ A [PHP implementation](http://git/ftlabs/ftdatasquasher-php) also exists.
 Development requirements
 ------------------------
 
-- You must have node installed your machine to build the javascript.
+- You must have node and npm installed your machine to build the javascript.
 
 Todo
 ----
