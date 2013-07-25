@@ -1,6 +1,6 @@
 {
   "name": "ftdatasquasher",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Data compression and decompression support, packing base64 into UTF8 high and low bytes",
   "main": "lib/ftdatasquasher.js",
   "scripts": {
