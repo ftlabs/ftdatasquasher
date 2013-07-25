@@ -23,6 +23,12 @@ buster.testCase('datasquasher', {
 		var actual = squasher.compress(sample);
 
 		assert.equals(expected, actual);
+
+		// And decompress again...
+		var actual = squasher.decompress(actual);
+
+		// Not quite the same - has a space at the end.
+		assert.equals(sample + ' ', actual);
 	}
 
 });
