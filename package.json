@@ -11,7 +11,12 @@
     "url": "git@10.119.160.180:ftlabs/ftdatasquasher.git"
   },
   "devDependencies": {
-    "browserify": "2.18.1"
+    "grunt": "~0.4.1",
+    "buster-istanbul": "git://github.com/matthew-andrews/buster-istanbul.git#optional-instrument",
+    "grunt-buster": "~0.2.1",
+    "grunt-browserify": "~1.2.1",
+    "buster": "~0.6.12",
+    "grunt-istanbul": "~0.2.1"
   },
   "author": "Rowan Beentje",
   "license": "MIT",

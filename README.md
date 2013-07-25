@@ -14,6 +14,6 @@ Todo
 ----
 
 - ~~Write build step for compatability with pre-browserify projects.~~
-- Write unit tests.
+- ~~Write unit tests.~~.
 - Write docs.
 - Publish on public GitHub.
