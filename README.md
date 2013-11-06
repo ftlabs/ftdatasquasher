@@ -5,7 +5,9 @@ Data compression and decompression support, packing base64 into UTF8 high and lo
 
 <!--A [PHP implementation](http://github.com/ftlabs/ftdatasquasher-php) also exists.-->
 
-Development requirements
-------------------------
+Installation
+------------
 
-- You must have node and npm installed your machine to build the javascript.
+```
+npm install ftdatasquasher
+```
