@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@10.119.160.180:ftlabs/ftdatasquasher.git"
+    "url": "git@github.com:ftlabs/ftdatasquasher.git"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
