@@ -4,7 +4,8 @@
   "description": "Data compression and decompression support, packing base64 into UTF8 high and low bytes",
   "main": "lib/ftdatasquasher.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/grunt test",
+    "coveralls": "cat coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -12,12 +13,13 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "buster-istanbul": "~0.1.10",
     "grunt-buster": "~0.3.1",
     "grunt-browserify": "~1.2.11",
+    "buster-istanbul": "~0.1.10",
     "buster": "~0.7.8",
-    "grunt-istanbul": "~0.2.3",
-    "grunt-jsdoc": "~0.4.1"
+    "grunt-jsdoc": "~0.4.1",
+    "grunt-cli": "~0.1.10",
+    "coveralls": "~2.3.0"
   },
   "author": "Rowan Beentje",
   "license": "MIT",

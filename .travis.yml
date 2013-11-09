@@ -1,0 +1,8 @@
+script:
+  - "npm test"
+  - "npm run coveralls"
+
+language: node_js
+
+node_js:
+  - "0.10"

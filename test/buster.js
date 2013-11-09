@@ -2,18 +2,18 @@ var config = module.exports;
 
 config.datasquasher = {
 	rootPath: '../',
+  sources: [
+    "lib/*.js"
+  ],
 	environment: 'node',
-	sources: [
-		'build/ftdatasquasher.js'
-	],
+  "buster-istanbul": {
+    outputDirectory: "coverage",
+    format: ["lcov", "html"]
+  },
 	tests: [
 		'test/tests/*.js'
 	],
-	extensions: [
-		require('buster-istanbul')
-	],
-	"buster-istanbul": {
-		instrument: false,
-		outputDirectory: "coverage"
-	}
+  extensions: [
+    require('buster-istanbul')
+  ]
 };

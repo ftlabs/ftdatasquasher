@@ -1,5 +1,6 @@
 var buster = require('buster');
-var squasher = require('../../coverage/lib/ftdatasquasher');
+var squasher = require('../../lib/ftdatasquasher');
+var assert = buster.assertions.assert;
 
 buster.testCase('datasquasher', {
 
