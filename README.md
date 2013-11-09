@@ -3,7 +3,7 @@ ftdatasquasher [![Build Status](https://travis-ci.org/ftlabs/ftdatasquasher.png?
 
 Data compression and decompression support, packing base64 into UTF8 high and
 low bytes that we use to 'compress' base 64 encoded to maximise the amount of
-binary data we can store offline on [described](bit.ly/unireencode) by
+binary data we can store offline on [described](http://bit.ly/unireencode) by
 [@triblondon](http://www.twitter.com/triblondon).
 
 ## The problem
@@ -28,6 +28,9 @@ IndexedDB, WebSQL or localStorage) it stores that data as UTF16.
 Because UTF-16 is capable of encoding over a million different characters and
 Base 64 only uses 64 of them it turns out that UTF-16 is not a very efficient
 format for storing base 64 encoded data.
+
+For a more detailed explanation see:
+http://bit.ly/unireencode
 
 ## What do we do
 
