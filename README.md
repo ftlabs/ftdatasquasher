@@ -13,7 +13,7 @@ support it.  (localStorage only stores strings, WebSQL stores a few different
 types - but not binary, and IndexedDB doesn't support it on all browsers)
 
 Also IndexedDB is unlikely to ever support it properly across all browsers as
-[File API](should fulfill the storing binary files for offline use case).
+[File API should one day fulfill the storing binary files for offline use case](http://www.w3.org/TR/FileAPI/).
 
 But you can work around it.  If you base 64 the binary data it becomes a string
 and that string can be stored with the storage technology of your choosing.
