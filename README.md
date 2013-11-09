@@ -49,7 +49,7 @@ It's just plain javascript.  It should work everywhere.  Across all browsers
 
 ## Usage
 
-See the docs.
+[See the docs](http://ftlabs.github.io/ftdatasquasher/doc/module-ftdatasquasher.html)
 
 ## Credits and collaboration ##
 
