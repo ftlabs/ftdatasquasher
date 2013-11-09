@@ -9,24 +9,11 @@ module.exports = function(grunt) {
     },
 
     browserify: {
-      build: {
-        src: 'lib/ftdatasquasher.js',
-        dest: 'build/ftdatasquasher.js'
-      },
-      test: {
-        src: 'coverage/lib/ftdatasquasher.js',
-        dest: 'coverage/build/ftdatasquasher.js'
-      },
+      src: 'lib/ftdatasquasher.js',
+      dest: 'build/ftdatasquasher.js',
       options: {
         standalone: 'DataSquasher'
       },
-    },
-
-    instrument: {
-      files: 'lib/**/*.js',
-      options: {
-        basePath: 'coverage/'
-      }
     },
 
     jsdoc: {
@@ -41,10 +28,9 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-buster');
   grunt.loadNpmTasks('grunt-browserify');
-  grunt.loadNpmTasks('grunt-istanbul');
   grunt.loadNpmTasks('grunt-jsdoc');
 
   // Default task.
   grunt.registerTask('default', ['browserify:build']);
-  grunt.registerTask('test', ['instrument', 'browserify:test', 'buster:test']);
+  grunt.registerTask('test', ['buster:test']);
 };
