@@ -1,4 +1,4 @@
-ftdatasquasher
+ftdatasquasher [![Build Status](https://travis-ci.org/ftlabs/ftdatasquasher.png?branch=master)](https://travis-ci.org/ftlabs/ftdatasquasher)
 ==============
 
 Data compression and decompression support, packing base64 into UTF8 high and
