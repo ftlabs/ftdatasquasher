@@ -28,11 +28,21 @@ module.exports = function(grunt) {
         basePath: 'coverage/'
       }
     },
+
+    jsdoc: {
+      dist: {
+        src: ['lib/*.js', 'README.md'],
+        options: {
+          destination: 'doc'
+        }
+      }
+    }
   });
 
   grunt.loadNpmTasks('grunt-buster');
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-istanbul');
+  grunt.loadNpmTasks('grunt-jsdoc');
 
   // Default task.
   grunt.registerTask('default', ['browserify:build']);

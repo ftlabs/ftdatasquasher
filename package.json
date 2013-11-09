@@ -12,11 +12,12 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "buster-istanbul": "git://github.com/matthew-andrews/buster-istanbul.git#optional-instrument",
-    "grunt-buster": "~0.2.1",
-    "grunt-browserify": "~1.2.1",
-    "buster": "~0.6.12",
-    "grunt-istanbul": "~0.2.1"
+    "buster-istanbul": "~0.1.10",
+    "grunt-buster": "~0.3.1",
+    "grunt-browserify": "~1.2.11",
+    "buster": "~0.7.8",
+    "grunt-istanbul": "~0.2.3",
+    "grunt-jsdoc": "~0.4.1"
   },
   "author": "Rowan Beentje",
   "license": "MIT",
