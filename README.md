@@ -30,7 +30,7 @@ Base 64 only uses 64 of them it turns out that UTF-16 is not a very efficient
 format for storing base 64 encoded data.
 
 For a more detailed explanation see:
-http://bit.ly/unireencode
+http://labs.ft.com/2012/06/text-re-encoding-for-optimising-storage-capacity-in-the-browser/
 
 ## What do we do
 
