@@ -3,7 +3,7 @@ ftdatasquasher [![Build Status](https://travis-ci.org/ftlabs/ftdatasquasher.png?
 
 Data compression and decompression support, packing base64 into UTF8 high and
 low bytes that we use to 'compress' base 64 encoded to maximise the amount of
-binary data we can store offline on [described](http://bit.ly/unireencode) by
+binary data we can store offline on [described](http://labs.ft.com/2012/06/text-re-encoding-for-optimising-storage-capacity-in-the-browser/) by
 [@triblondon](http://www.twitter.com/triblondon).
 
 ## The problem
